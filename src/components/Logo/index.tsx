@@ -3,9 +3,9 @@ import * as S from './styles'
 
 import { getImageUrl } from 'utils/getImageUrl'
 
-import { LogoProps } from 'types/api'
+import { ImageProps } from 'types/api'
 
-const Logo = ({ url, alternativeText }: LogoProps) => (
+const Logo = ({ url, alternativeText }: ImageProps) => (
   <S.LogoWrapper src={getImageUrl(url)} alt={alternativeText} />
 )
 
